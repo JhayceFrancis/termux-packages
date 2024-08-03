@@ -4,7 +4,7 @@
 #	docker push ghcr.io/termux/package-builder
 # This is done after changing this file or any of the
 # scripts/setup-{ubuntu,android-sdk,cgct}.sh setup scripts.
-FROM ubuntu:22.04
+FROM ubuntu:mantic-20240530
 
 # Fix locale to avoid warnings:
 ENV LANG en_US.UTF-8
